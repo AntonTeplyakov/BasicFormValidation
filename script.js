@@ -14,3 +14,6 @@ form.addEventListener('submit',e => {
     }
 })
 
+form.username.addEventListener('keyup', e =>{
+    console.log(e.target.value, form.username.value);
+});
